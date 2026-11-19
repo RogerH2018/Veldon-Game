@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/veldon-game.png" width="156" alt="Veldon Game’s retro wired controller logo">
+  <img src="assets/veldon-game.png" width="166" height="72" alt="Veldon Game logo, a sage-gray controller with a V molded into the center">
 </p>
 
 <h1 align="center">Veldon Game</h1>
@@ -12,7 +12,7 @@
 
 - [About and vision](#en-vision)
 - [Weekly game updates](#en-updates)
-- [Platform roadmap](#en-roadmap)
+- [Project roadmap](#en-roadmap)
 - [Join the discussion](#en-discuss)
 - [Copyright](#en-rights)
 
@@ -22,9 +22,9 @@
 
 ## About and vision
 
-As kids, when we got stuck on a level, we’d pass the controller to a friend and say, “Your turn.” That’s the feeling we want to bring to our games. Each one starts with a simple rule. We build a playable version early and let players help us tune how it feels.
+When we were kids, we’d find a secret passage in a game and sketch its entrance on scrap paper for a friend at recess the next day. We want to use AI to make games with surprises worth sharing. Each game starts with a simple rule. We share the first playable version early, then keep refining it with feedback from players.
 
-We’ll publish all 1,000 games on the **Veldon Game website** as they’re ready. You’ll be able to play each one right on its game page. Over time, we want to share the tools behind these games. You’ll be able to turn an idea into a game with AI, publish it on the same site, and let your players help shape the next level.
+We’ll publish all 1,000 games on the **Veldon Game website** as they’re ready, so you can play each one right on its page. Over time, we want to share the tools we use. You’ll be able to turn an idea into a game with AI, publish it on the same site, and talk to your players about what to change in the next version.
 
 <a name="en-updates"></a>
 
@@ -36,11 +36,11 @@ We’ll publish all 1,000 games on the **Veldon Game website** as they’re read
 
 <a name="en-roadmap"></a>
 
-## Platform roadmap
+## Project roadmap
 
 | Feature | What you’ll be able to do |
 | --- | --- |
-| Generate games with AI | Describe a game mechanic and use AI to build the first level. Play a round, then adjust the rules, code, and assets. |
+| Generate games with AI | Describe your idea and let AI build the first playable version. Try it out, then adjust the rules, code, and assets. |
 | Publish games | Publish the version you choose on the Veldon Game website. Friends can visit its game page and play even after you close the studio. |
 | Play games | Open a link to play. If you like the game, pass it on to a friend. |
 | Community for players and creators | Tell the creator which level you loved or where you got stuck, or find someone to make a game with. |
