@@ -12,7 +12,7 @@
 - [Weekly game updates](#en-updates)
 - [Platform roadmap](#en-roadmap)
 - [Join the discussion](#en-discuss)
-- [Copyright and credits](#en-rights)
+- [Copyright](#en-rights)
 
 **Repository directories**　[Weekly progress](progress/) · [Logo assets](assets/)
 
@@ -20,17 +20,15 @@
 
 ## About and vision
 
-**Our first goal is to make 1,000 original games with AI as a tribute to the games we grew up playing.** We remember sharing a screen, losing a round, and passing the controller to a friend for one more try. We want to make new games that earn that extra round. Each one starts with a rule we can put in someone’s hands and see whether it’s fun.
+**Our first goal is to make 1,000 original games with AI, in tribute to the games we grew up playing.** We remember sharing a screen, getting stuck on a level, and handing the controller to a friend for one more try. That’s the feeling we want our games to capture. Each one starts with a simple rule. As soon as there’s a playable version, we put it in players’ hands.
 
-Over time, we want to put the tools and lessons from those 1,000 games in everyone’s hands. Veldon Game will be a place to **generate games with AI, publish them, play them, and meet people who share your interests**. A player who suggests a new rule today could build it tomorrow and send it to a friend.
-
-A local studio prototype already lets creators browse design documents, code, and assets and preview a game in a browser. The hosted studio, public arcade, and on-site community are planned.
+As we make those 1,000 games, we want to share the tools we use along the way. Our aim is for anyone to turn an idea into a game with AI on Veldon Game, publish it, and invite friends to play. On each game’s page, players will be able to tell the creator which level they loved or where they got stuck. They might even design the next level together.
 
 <a name="en-updates"></a>
 
 ## Weekly game updates
 
-**Each week, we aim to release or update at least one game.** The log records the game number, what changed, and where to play. A title counts toward the 1,000 when it first joins the collection. Later versions keep the same number.
+**We aim to release or update at least one game each week.** The weekly log lists each game’s number, what changed, and a link to play. A game counts toward the 1,000 only once. Later versions keep its original number.
 
 [Browse the weekly game log →](progress/README.md)
 
@@ -40,23 +38,19 @@ A local studio prototype already lets creators browse design documents, code, an
 
 | Feature | What you’ll be able to do |
 | --- | --- |
-| Generate games with AI | Describe a rule, use AI to build a playable first level, then tune the rules, code, and assets as you play. |
-| Publish games | Give a playable version its own shareable link. Friends can keep playing after the creator closes the studio. |
-| Play games | Browse the arcade by genre or player count, jump into a game, and send a favorite to a friend. |
-| Community for players and creators | Leave playtest notes on a game’s page, discuss the next version with its creator, or find someone to build with. |
-
-The first workflow will cover HTML5 games. Next, we plan to test Godot’s Web export and assess cloud builds for Unity web games.
+| Generate games with AI | Describe how the game should play. Use AI to build the first level, then try it out and adjust the rules, code, and assets. |
+| Publish games | Publish a playable version with a link that friends can use even after you close the studio. |
+| Play games | Open a link to play. If you like the game, pass it on to a friend. |
+| Community for players and creators | Leave playtest notes, discuss changes with the creator, or find a partner to make a game with. |
 
 <a name="en-discuss"></a>
 
 ## Join the discussion
 
-If you could change one rule in a level you played as a kid, which would you pick? Tell us about that moment. If you’ve tried one of our games, share its number, what happened, and what you expected. English and Chinese are both welcome. [Join GitHub Discussions](https://github.com/RogerH2018/Veldon-Game/discussions)
+Is there a level you played as a kid that you’ve always wanted to change? Tell us how you’d redesign it. If you’ve tried one of our games, share its number and one thing you’d keep or change. You’re welcome to post in English or Chinese. [Join GitHub Discussions](https://github.com/RogerH2018/Veldon-Game/discussions)
 
 <a name="en-rights"></a>
 
-## Copyright and credits
+## Copyright
 
-Copyright in Veldon Game’s original writing, logo, and games belongs to the respective rights holders. Use of code, art, and music is governed by each work’s license. Please credit the creator and include the source and license when sharing material. [View the project logo](assets/veldon-game.png)
-
-The local studio prototype builds on OhMyGame. The reused upstream code is licensed under the Apache License 2.0. Thanks to the upstream contributors. [OhMyGame](https://github.com/WhiteTowerAI/ohmygame) · [Upstream license](https://github.com/WhiteTowerAI/ohmygame/blob/dce16c80cb514d6cbc3fec65136cf4403f2ea910/LICENSE)
+© 2026 Veldon Game
