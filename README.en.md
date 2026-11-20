@@ -11,12 +11,11 @@
 ## Contents
 
 - [About and vision](#en-vision)
+- [Repository structure](#en-structure)
 - [Weekly game updates](#en-updates)
 - [Project roadmap](#en-roadmap)
 - [Join the discussion](#en-discuss)
 - [Copyright](#en-rights)
-
-**Repository directories**　[Weekly progress](progress/) · [Logo assets](assets/)
 
 <a name="en-vision"></a>
 
@@ -26,13 +25,31 @@ When we were kids, we’d find a secret passage in a game and sketch its entranc
 
 We’ll publish all 1,000 games on the **Veldon Game website** as they’re ready, so you can play each one right on its page. Over time, we want to share the tools we use. You’ll be able to turn an idea into a game with AI, publish it on the same site, and talk to your players about what to change in the next version.
 
+<a name="en-structure"></a>
+
+## Repository structure
+
+`Veldon-Game` maintains the main website and its game catalog. Independently hosted games keep their code, assets, and licenses in their own repositories. The website can link to a deployed game or embed it in a play page.
+
+| File or directory | Purpose |
+| --- | --- |
+| [`index.html`](index.html) | Website homepage |
+| [`games.js`](games.js) | Catalog entries for original and open-source games, including descriptions, covers, and play URLs |
+| [`games/original/`](games/original/) · [`games/open-source/`](games/open-source/) | Category listings and play pages |
+| [`assets/`](assets/) | Website styles and images |
+| [`progress/`](progress/) | Weekly logs for original games and updates on open-source games |
+
+Standalone game repositories use `veldon-number-category-game-name`, with `open` for open-source games and `original` for our own games. Each category starts at `001`. Use at least three digits for the number and lowercase letters, digits, and hyphens for the game name.
+
+Open-source game `001` is 3D Hartwig Chess Set. The game runs from its own deployment, and the main website embeds the board and displays the credits. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
+
+Add a new game to its category in `games.js`. Set `url` to the full play URL or a play page under `games/`. For open-source games, set `source` to the original author's source repository.
+
 <a name="en-updates"></a>
 
 ## Weekly game updates
 
-**We aim to release or update at least one game each week.** The weekly log covers new releases and changes to existing games, with links to play them on the project website. Each game counts once and keeps its number across updates.
-
-Standalone game repositories use `veldon-number-category-game-name`, with `open` for open-source games and `original` for our own games. Each category starts at `001`. Use at least three digits for the number and lowercase letters, digits, and hyphens for the game name.
+**We aim to release or update at least one game each week.** The weekly log covers new releases and changes to existing games, with links to play them on the project website. Each original game counts toward the 1,000-game goal when first listed and keeps its number across updates. Open-source games have their own numbering.
 
 [Browse the weekly game log →](progress/README.md)
 
