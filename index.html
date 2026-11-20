@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Veldon Game 的原创网页游戏库。用 AI 一起做 1,000 款原创游戏，致敬童年。">
+    <meta name="theme-color" content="#0d1119">
+    <title>Veldon Game · 原创网页游戏</title>
+    <link rel="icon" href="assets/veldon-game.png" type="image/png">
+    <link rel="stylesheet" href="assets/home.css">
+    <script src="games.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="./index.html">
+          <img src="assets/veldon-game.png" alt="" width="42" height="18">
+          <span>Veldon Game</span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a class="library-link" href="#games">游戏库</a>
+          <a href="https://github.com/RogerH2018/Veldon-Game/tree/main/progress">开发周报</a>
+        </nav>
+        <a class="repo-link" href="https://github.com/RogerH2018/Veldon-Game">GitHub</a>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/arcade-hero.webp" alt="" width="1942" height="809" fetchpriority="high">
+        </div>
+        <div class="hero-copy">
+          <p class="hero-label">原创网页游戏</p>
+          <h1 id="hero-title">把童年，<br><span>玩成新游戏。</span></h1>
+          <p class="hero-description">用 AI 一起做 1,000 款原创游戏，致敬童年。</p>
+          <a class="primary-link" href="#games">浏览游戏</a>
+        </div>
+      </section>
+
+      <section class="library" id="games" aria-labelledby="library-title">
+        <div class="library-heading">
+          <h2 id="library-title">游戏库</h2>
+          <p class="game-count"><strong id="game-count">0</strong> / 1,000 款已收录</p>
+        </div>
+
+        <ul class="game-grid" id="game-grid" hidden></ul>
+
+        <div class="empty-library" id="empty-library">
+          <div class="cartridge-frame" aria-hidden="true"><span class="cartridge"></span></div>
+          <div class="empty-copy">
+            <h3>首款游戏尚未上线</h3>
+            <p>新游戏和试玩链接会发布在开发周报里。</p>
+          </div>
+          <a class="secondary-link" href="https://github.com/RogerH2018/Veldon-Game/tree/main/progress">查看开发周报</a>
+        </div>
+
+        <template id="game-card">
+          <li class="game-card">
+            <img class="game-cover" alt="" loading="lazy" width="640" height="360">
+            <div class="game-details">
+              <h3 class="game-title"></h3>
+              <p class="game-description"></p>
+              <a class="secondary-link game-link">开始试玩</a>
+            </div>
+          </li>
+        </template>
+      </section>
+    </main>
+
+    <footer class="shell site-footer">
+      <small>© 2026 Veldon Game</small>
+    </footer>
+  </body>
+</html>
