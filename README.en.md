@@ -32,6 +32,8 @@ We’ll publish all 1,000 games on the **Veldon Game website** as they’re read
 
 **We aim to release or update at least one game each week.** The weekly log covers new releases and changes to existing games, with links to play them on the project website. Each game counts once and keeps its number across updates.
 
+Standalone game repositories use `veldon-number-category-game-name`, with `open` for open-source games and `original` for our own games. Each category starts at `001`. Use at least three digits for the number and lowercase letters, digits, and hyphens for the game name.
+
 [Browse the weekly game log →](progress/README.md)
 
 <a name="en-roadmap"></a>
