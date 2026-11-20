@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/veldon-game.png" width="166" height="72" alt="Veldon Game 标志，两支灰青色弹珠台翻板组成倾斜的 V，一颗黄铜色弹珠悬在其间">
+  <img src="assets/veldon-game.png" width="72" height="72" alt="一张穿着短靴向右奔跑的游戏卡带，标签左上角印着 V">
 </p>
 
 <h1 align="center">Veldon Game</h1>
