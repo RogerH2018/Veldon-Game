@@ -41,6 +41,8 @@
 
 独立游戏仓库统一使用 `veldon-编号-类别-游戏名`。开源游戏用 `open`，自制游戏用 `original`。两类各自从 `001` 编号，编号至少三位，游戏名用小写字母、数字和连字符。
 
+自制游戏 **001** 是《弧港对决》。棱锚与流梭在夜潮码头交手，支持单人挑战、双人同屏及可自定义连招。 [游戏仓库](https://github.com/RogerH2018/veldon-001-original-arc-harbor) · [网页试玩](https://rogerh2018.github.io/veldon-001-original-arc-harbor/)
+
 开源游戏 `001` 是 3D Hartwig Chess Set。游戏在独立仓库部署，主站试玩页负责内嵌棋盘和展示署名。 [游戏仓库](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [独立试玩](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
 新增游戏时，在 `games.js` 的对应分类登记。`url` 可以填完整的试玩地址，也可以指向 `games/` 下的主站试玩页。开源游戏用 `source` 链接原作者的源码仓库。

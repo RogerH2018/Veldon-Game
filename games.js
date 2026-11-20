@@ -2,7 +2,13 @@
 // 示例：{ title: "游戏名", description: "玩法简介", cover: "assets/game.webp", url: "games/original/my-game/index.html" }
 const games = {
   original: [
-    { title: "首款自制游戏" },
+    {
+      title: "001 · 弧港对决",
+      description: "棱锚与流梭在夜潮码头交手。支持单人挑战、双人同屏和可自定义连招。",
+      cover: "https://rogerh2018.github.io/veldon-001-original-arc-harbor/assets/cover.jpg",
+      url: "https://rogerh2018.github.io/veldon-001-original-arc-harbor/",
+      source: "https://github.com/RogerH2018/veldon-001-original-arc-harbor",
+    },
     { title: "自制游戏预留位" },
   ],
   "open-source": [
