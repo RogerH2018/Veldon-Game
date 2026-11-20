@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/veldon-game.png" width="166" height="72" alt="Veldon Game logo, a sage-gray controller with a V molded into the center">
+  <img src="assets/veldon-game.png" width="166" height="72" alt="Veldon Game logo. Two teal pinball flippers form a tilted V with a brass-colored ball between them.">
 </p>
 
 <h1 align="center">Veldon Game</h1>
