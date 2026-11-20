@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/veldon-game.png" width="72" height="72" alt="一张穿着短靴向右奔跑的游戏卡带，标签左上角印着 V">
+  <img src="assets/veldon-game.png" width="84" height="84" alt="一张穿着短靴向右奔跑的游戏卡带，标签左上角印着 V">
 </p>
 
 <h1 align="center">Veldon Game</h1>

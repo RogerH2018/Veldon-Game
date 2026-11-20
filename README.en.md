@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/veldon-game.png" width="72" height="72" alt="A game cartridge in boots runs to the right, with a V in the corner of its label.">
+  <img src="assets/veldon-game.png" width="84" height="84" alt="A game cartridge in boots runs to the right, with a V in the corner of its label.">
 </p>
 
 <h1 align="center">Veldon Game</h1>
