@@ -45,7 +45,7 @@
 
 开源游戏 `001` 是 Julian Garnier 制作的 3D Hartwig Chess Set，棋具由 Josef Hartwig 设计，走棋规则由 Chess.js 提供。主站目录直接链接到独立部署的试玩页。 [游戏仓库](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [独立试玩](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
-新增游戏时，在 `games.js` 的对应分类登记。`url` 可以填完整的试玩地址，也可以指向 `games/` 下的主站试玩页。开源游戏用 `source` 链接原作者的源码仓库。
+新增游戏时，在 `games.js` 的对应分类登记。`url` 可以填完整的试玩地址，也可以指向 `games/` 下的主站试玩页。由 Veldon Game 维护的开源游戏用 `source` 链接对应的 GitHub Fork。
 
 <a name="zh-updates"></a>
 

@@ -45,7 +45,7 @@ Standalone game repositories use `veldon-number-category-game-name`, with `open`
 
 Open-source game `001` is Julian Garnier’s 3D Hartwig Chess Set, with pieces designed by Josef Hartwig and move validation provided by Chess.js. The main catalog links directly to the standalone game. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
-Add a new game to its category in `games.js`. Set `url` to the full play URL or a play page under `games/`. For open-source games, set `source` to the original author's source repository.
+Add a new game to its category in `games.js`. Set `url` to the full play URL or a play page under `games/`. For open-source games maintained by Veldon Game, set `source` to the corresponding GitHub fork.
 
 <a name="en-updates"></a>
 
