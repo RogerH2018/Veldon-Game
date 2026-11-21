@@ -265,8 +265,7 @@ a:focus-visible {
 }
 
 .catalog-actions,
-.game-actions,
-.play-links {
+.game-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -435,30 +434,6 @@ a:focus-visible {
 
 .catalog-panel .game-details {
   padding: 0.65rem 0.8rem;
-}
-
-.play-page {
-  margin-top: clamp(1.25rem, 3vw, 2.25rem);
-}
-
-.play-page h1 {
-  margin: 0;
-  font-size: clamp(1.85rem, 4.5vw, 3.25rem);
-  line-height: 1.15;
-}
-
-.play-page p {
-  margin: 0.65rem 0 1rem;
-  color: var(--muted);
-}
-
-.play-frame {
-  display: block;
-  width: 100%;
-  height: clamp(42rem, 82vh, 48rem);
-  border: 1px solid var(--border);
-  border-radius: 0.95rem;
-  background: var(--surface);
 }
 
 .site-footer {

@@ -41,7 +41,7 @@
 
 独立游戏仓库统一使用 `veldon-编号-类别-游戏名`。开源游戏用 `open`，自制游戏用 `original`。两类各自从 `001` 编号，编号至少三位，游戏名用小写字母、数字和连字符。
 
-自制游戏 **001** 是《三国小将·虎牢争锋》。百位 Q 版三国人物在虎牢关交锋，每人有三套专属连招，支持单人挑战、双人同屏和自定义按键。 [游戏仓库](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [主站试玩](https://rogerh2018.github.io/Veldon-Game/games/original/hulao-showdown/)
+自制游戏 **001** 是《三国小将·虎牢争锋》。百位 Q 版三国人物在虎牢关交锋，每人有三套专属连招，支持单人挑战、双人同屏和自定义按键。 [游戏仓库](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [网页试玩](https://rogerh2018.github.io/veldon-001-original-hulao-showdown/)
 
 开源游戏 `001` 是 Julian Garnier 制作的 3D Hartwig Chess Set，棋具由 Josef Hartwig 设计，走棋规则由 Chess.js 提供。主站目录直接链接到独立部署的试玩页。 [游戏仓库](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [独立试玩](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
