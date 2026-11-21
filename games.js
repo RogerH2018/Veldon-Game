@@ -3,8 +3,8 @@
 const games = {
   original: [
     {
-      title: "001 · 弧港对决",
-      description: "棱锚与流梭在夜潮码头交手。支持单人挑战、双人同屏和可自定义连招。",
+      title: "001 · 三国小将·虎牢争锋",
+      description: "百位 Q 版三国人物会战虎牢关。三百套专属连招，快击、突进与重破相互克制。",
       cover: "https://rogerh2018.github.io/veldon-001-original-arc-harbor/assets/cover.jpg",
       url: "https://rogerh2018.github.io/veldon-001-original-arc-harbor/",
       source: "https://github.com/RogerH2018/veldon-001-original-arc-harbor",

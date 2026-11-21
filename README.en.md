@@ -41,7 +41,7 @@ We’ll publish all 1,000 games on the **Veldon Game website** as they’re read
 
 Standalone game repositories use `veldon-number-category-game-name`, with `open` for open-source games and `original` for our own games. Each category starts at `001`. Use at least three digits for the number and lowercase letters, digits, and hyphens for the game name.
 
-**001** in the original collection is *Arc Harbor*, a fighting game with solo CPU matches, local two-player play, and configurable combos. [Game repository](https://github.com/RogerH2018/veldon-001-original-arc-harbor) · [Play Arc Harbor](https://rogerh2018.github.io/veldon-001-original-arc-harbor/)
+**001** in the original collection is *Hulao Showdown*, a Three Kingdoms fighting game featuring 100 chibi generals, 300 signature combos, solo CPU matches, and local two-player play. [Game repository](https://github.com/RogerH2018/veldon-001-original-arc-harbor) · [Play Hulao Showdown](https://rogerh2018.github.io/veldon-001-original-arc-harbor/)
 
 Open-source game `001` is 3D Hartwig Chess Set. The game runs from its own deployment, and the main website embeds the board and displays the credits. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
