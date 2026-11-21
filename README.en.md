@@ -43,7 +43,7 @@ Standalone game repositories use `veldon-number-category-game-name`, with `open`
 
 **001** in the original collection is *Hulao Showdown*, a Three Kingdoms fighting game featuring 100 chibi generals, 300 signature combos, solo CPU matches, and local two-player play. [Game repository](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [Play Hulao Showdown](https://rogerh2018.github.io/Veldon-Game/games/original/hulao-showdown/)
 
-Open-source game `001` is 3D Hartwig Chess Set. The game runs from its own deployment, and the main website embeds the board and displays the credits. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
+Open-source game `001` is Julian Garnier’s 3D Hartwig Chess Set. The main catalog links directly to the standalone game. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 
 Add a new game to its category in `games.js`. Set `url` to the full play URL or a play page under `games/`. For open-source games, set `source` to the original author's source repository.
 

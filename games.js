@@ -15,7 +15,7 @@ const games = {
     {
       title: "3D Hartwig Chess Set",
       description: "Julian Garnier 制作的 3D 国际象棋，支持同屏双人对弈。",
-      url: "games/open-source/hartwig-chess/index.html",
+      url: "https://rogerh2018.github.io/veldon-001-open-hartwig-chess/",
       source: "https://github.com/juliangarnier/3D-Hartwig-chess-set",
     },
     { title: "开源游戏预留位" },
