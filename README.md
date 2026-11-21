@@ -17,7 +17,7 @@
 - [仓库结构](#zh-structure)
 - [每周游戏更新](#zh-updates)
 - [项目功能规划](#zh-roadmap)
-- [参与讨论](#zh-discuss)
+- [欢迎加入](#zh-discuss)
 - [版权说明](#zh-rights)
 
 <a name="zh-website"></a>
@@ -83,9 +83,11 @@ Veldon Game 是一个网页游戏合集。我们用 AI 制作原创游戏，也�
 
 <a name="zh-discuss"></a>
 
-## 参与讨论
+## 欢迎加入
 
-小时候玩的哪一关，你最想亲手改一改？来讨论区聊聊你会怎么改。如果试玩过我们的作品，带上游戏编号，说说你想保留的一个细节，或最想改的一条规则。中文、英文都欢迎。[进入 GitHub Discussions](https://github.com/RogerH2018/Veldon-Game/discussions)
+欢迎玩家和创作者来 Veldon Game 一起做游戏。你可以试玩新版本、分享一个玩法点子，也可以参与关卡设计、美术、音效或代码开发。想找搭档的话，可以在讨论区介绍自己想做的游戏。
+
+小时候玩的哪一关，你最想亲手改一改？来讨论区聊聊你会怎么改。如果试玩过我们的作品，带上游戏编号，说说你想保留的一个细节，或最想改的一条规则。中文、英文都欢迎。 [进入 GitHub Discussions](https://github.com/RogerH2018/Veldon-Game/discussions)
 
 <a name="zh-rights"></a>
 

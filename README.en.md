@@ -17,7 +17,7 @@
 - [Repository structure](#en-structure)
 - [Weekly game updates](#en-updates)
 - [Project roadmap](#en-roadmap)
-- [Join the discussion](#en-discuss)
+- [Get involved](#en-discuss)
 - [Copyright](#en-rights)
 
 <a name="en-website"></a>
@@ -83,7 +83,9 @@ Add a new game to its category in `games.js` and set `url` to the game's standal
 
 <a name="en-discuss"></a>
 
-## Join the discussion
+## Get involved
+
+Players and creators are welcome to make games with us at Veldon Game. Try an early build, share an idea for a game mechanic, or help with level design, art, sound, or code. If you’re looking for someone to work with, tell us about the game you’d like to make in Discussions.
 
 Which level from your childhood would you most like to redesign, and how would you make it play differently? If you’ve tried one of our games, share its number and a detail you’d keep or a rule you’d change. English and Chinese are both welcome. [Join GitHub Discussions](https://github.com/RogerH2018/Veldon-Game/discussions)
 
