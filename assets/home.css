@@ -265,7 +265,8 @@ a:focus-visible {
 }
 
 .catalog-actions,
-.game-actions {
+.game-actions,
+.play-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -454,23 +455,10 @@ a:focus-visible {
 .play-frame {
   display: block;
   width: 100%;
-  height: clamp(25rem, 70vw, 42rem);
+  height: clamp(42rem, 82vh, 48rem);
   border: 1px solid var(--border);
   border-radius: 0.95rem;
   background: var(--surface);
-}
-
-.play-frame-large {
-  height: clamp(42rem, 82vh, 48rem);
-}
-
-.play-page .play-credits {
-  margin-top: 1.15rem;
-  margin-bottom: 0.4rem;
-}
-
-.play-links {
-  padding-top: 0;
 }
 
 .site-footer {
