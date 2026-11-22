@@ -6,7 +6,7 @@
 
 <p align="center">Let’s make 1,000 original games with AI, inspired by the games we grew up playing.</p>
 
-<p align="center"><a href="https://www.veldongame.com/"><strong>Official website · www.veldongame.com</strong></a></p>
+<p align="center"><a href="https://www.veldongame.com/?lang=en"><strong>Official website · www.veldongame.com</strong></a></p>
 
 <p align="center"><a href="README.md" lang="zh-CN">简体中文</a> · <strong>English</strong></p>
 
@@ -26,10 +26,10 @@
 
 Veldon Game is a collection of browser games. We build original games with AI and share games from the open-source community. Pick a game from the catalog to play in your browser.
 
-- Our first original game, *Hulao Showdown*, supports solo matches against the CPU and local two-player play. [Browse original games](https://www.veldongame.com/games/original/)
-- The open-source catalog includes *3D Hartwig Chess Set*, with links to play and browse its source code. [Browse open-source games](https://www.veldongame.com/games/open-source/)
-- The weekly logs cover new releases and updates. [Original game log](https://www.veldongame.com/progress/original/) · [Open-source game log](https://www.veldongame.com/progress/open-source/)
-- The AI Game Studio is in development. The goal is to help you turn a game idea into a playable browser game with AI. [AI Game Studio](https://www.veldongame.com/studio/)
+- Our first original game, *Hulao Showdown*, supports solo matches against the CPU and local two-player play. [Browse original games](https://www.veldongame.com/games/original/?lang=en)
+- The open-source catalog includes *3D Hartwig Chess Set*, with links to play and browse its source code. [Browse open-source games](https://www.veldongame.com/games/open-source/?lang=en)
+- The weekly logs cover new releases and updates. [Original game log](https://www.veldongame.com/progress/original/?lang=en) · [Open-source game log](https://www.veldongame.com/progress/open-source/?lang=en)
+- The AI Game Studio is in development. The goal is to help you turn a game idea into a playable browser game with AI. [AI Game Studio](https://www.veldongame.com/studio/?lang=en)
 
 <a name="en-vision"></a>
 

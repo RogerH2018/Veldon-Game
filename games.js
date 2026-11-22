@@ -8,8 +8,12 @@ const games = {
       cover: "https://rogerh2018.github.io/veldon-001-original-hulao-showdown/assets/cover.jpg",
       url: "https://rogerh2018.github.io/veldon-001-original-hulao-showdown/",
       source: "https://github.com/RogerH2018/veldon-001-original-hulao-showdown",
+      en: {
+        title: "001 · Hulao Showdown",
+        description: "A hundred chibi Three Kingdoms fighters clash at Hulao Pass. Explore 300 signature combos built around quick strikes, rushes, and guard breaks.",
+      },
     },
-    { title: "自制游戏预留位" },
+    { title: "自制游戏预留位", en: { title: "Next Original Game" } },
   ],
   "open-source": [
     {
@@ -17,12 +21,18 @@ const games = {
       description: "Julian Garnier 制作的 3D 国际象棋，支持同屏双人对弈。",
       url: "https://rogerh2018.github.io/veldon-001-open-hartwig-chess/",
       source: "https://github.com/RogerH2018/veldon-001-open-hartwig-chess",
+      en: { description: "A 3D chess game for two players on one screen, created by Julian Garnier." },
     },
-    { title: "开源游戏预留位" },
+    { title: "开源游戏预留位", en: { title: "Next Open-Source Game" } },
   ],
 };
 
 const siteRoot = new URL(".", document.currentScript.src);
+const catalogLanguage = document.documentElement.lang;
+const englishCatalog = catalogLanguage === "en";
+const catalogLabels = englishCatalog
+  ? { status: "Coming soon", play: "Play", source: "View source" }
+  : { status: "未上线", play: "开始试玩", source: "查看源码" };
 const cardTemplate = document.createElement("template");
 cardTemplate.innerHTML = `
   <li class="game-card">
@@ -33,10 +43,10 @@ cardTemplate.innerHTML = `
     <div class="game-details">
       <p class="game-title"></p>
       <p class="game-description" hidden></p>
-      <p class="game-status">未上线</p>
+      <p class="game-status">${catalogLabels.status}</p>
       <div class="game-actions">
-        <a class="secondary-link game-link" hidden>开始试玩</a>
-        <a class="text-link game-source" hidden>查看源码</a>
+        <a class="secondary-link game-link" hidden>${catalogLabels.play}</a>
+        <a class="text-link game-source" hidden>${catalogLabels.source}</a>
       </div>
     </div>
   </li>
@@ -50,16 +60,19 @@ for (const catalog of document.querySelectorAll("[data-game-category]")) {
   const grid = catalog.querySelector(".game-grid");
   const count = catalog.querySelector("[data-published-count]");
 
-  if (count) count.textContent = published.length.toLocaleString("zh-CN");
+  if (count) count.textContent = published.length.toLocaleString(catalogLanguage);
 
   for (const game of ordered.slice(0, limit)) {
     const card = cardTemplate.content.cloneNode(true);
-    card.querySelector(".game-title").textContent = game.title;
+    const translation = englishCatalog ? game.en : undefined;
+    const title = translation?.title ?? game.title;
+    const description = translation?.description ?? game.description;
+    card.querySelector(".game-title").textContent = title;
 
-    if (game.description) {
-      const description = card.querySelector(".game-description");
-      description.textContent = game.description;
-      description.hidden = false;
+    if (description) {
+      const descriptionElement = card.querySelector(".game-description");
+      descriptionElement.textContent = description;
+      descriptionElement.hidden = false;
     }
 
     if (game.cover) {
@@ -70,8 +83,8 @@ for (const catalog of document.querySelectorAll("[data-game-category]")) {
 
     if (game.url) {
       const playLink = card.querySelector(".game-link");
-      playLink.href = new URL(game.url, siteRoot).href;
-      playLink.setAttribute("aria-label", `试玩《${game.title}》`);
+      playLink.href = sitePageUrl(game.url, siteRoot);
+      playLink.setAttribute("aria-label", englishCatalog ? `Play ${title}` : `试玩《${title}》`);
       playLink.hidden = false;
       card.querySelector(".game-status").hidden = true;
     }
@@ -79,7 +92,7 @@ for (const catalog of document.querySelectorAll("[data-game-category]")) {
     if (game.source && !catalog.hasAttribute("data-game-limit")) {
       const sourceLink = card.querySelector(".game-source");
       sourceLink.href = game.source;
-      sourceLink.setAttribute("aria-label", `查看《${game.title}》的源码`);
+      sourceLink.setAttribute("aria-label", englishCatalog ? `View source for ${title}` : `查看《${title}》的源码`);
       sourceLink.hidden = false;
     }
 

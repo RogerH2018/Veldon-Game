@@ -20,7 +20,11 @@ async function showVisitorCount() {
   if (!Number.isSafeInteger(visitors) || visitors < 0) return;
 
   const counter = document.createElement("small");
-  counter.textContent = `累计访客 ${visitors.toLocaleString("zh-CN")} 人次`;
+  const language = document.documentElement.lang;
+  const total = visitors.toLocaleString(language);
+  counter.textContent = language === "en"
+    ? `${total} total ${visitors === 1 ? "visitor" : "visitors"}`
+    : `累计访客 ${total} 人次`;
   footer.append(counter);
 }
 

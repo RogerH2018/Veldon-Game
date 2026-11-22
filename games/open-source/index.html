@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="浏览 Veldon Game 收录的开源网页游戏。">
+    <meta name="description" content="浏览 Veldon Game 收录的开源网页游戏。" data-en-content="Browse open-source browser games collected by Veldon Game.">
     <meta name="theme-color" content="#0d1119">
-    <title>开源游戏 · Veldon Game</title>
+    <title data-en="Open-Source Games · Veldon Game">开源游戏 · Veldon Game</title>
     <link rel="icon" href="../../assets/veldon-game.png" type="image/png">
     <link rel="stylesheet" href="../../assets/home.css">
+    <script src="../../assets/language.js" defer></script>
     <script src="../../games.js" defer></script>
     <script src="../../assets/visitors.js" defer></script>
   </head>
@@ -18,26 +19,29 @@
           <img src="../../assets/veldon-game.png" alt="" width="48" height="48">
           <span>Veldon Game</span>
         </a>
-        <nav class="site-nav" aria-label="主导航">
-          <a href="../original/index.html">自制游戏</a>
-          <a href="./index.html" aria-current="page">开源游戏</a>
-          <a href="../../studio/index.html">AI 游戏工作室</a>
+        <nav class="site-nav" aria-label="主导航" data-en-label="Main navigation">
+          <a href="../original/index.html" data-en="Original Games">自制游戏</a>
+          <a href="./index.html" aria-current="page" data-en="Open-Source Games">开源游戏</a>
+          <a href="../../studio/index.html" data-en="AI Game Studio">AI 游戏工作室</a>
         </nav>
-        <a class="repo-link" href="https://github.com/RogerH2018/Veldon-Game">GitHub</a>
+        <div class="header-tools">
+          <a class="language-link" href="?lang=en" data-language-switch lang="en" hreflang="en">English</a>
+          <a class="repo-link" href="https://github.com/RogerH2018/Veldon-Game">GitHub</a>
+        </div>
       </div>
     </header>
 
     <main class="shell" data-game-category="open-source">
       <section class="page-intro" aria-labelledby="page-title">
-        <h1 id="page-title">开源游戏</h1>
-        <p>发现开源社区的游戏。每款收录作品都会附上原作者和源码链接，试玩入口随作品上线开放。</p>
-        <a class="secondary-link" href="../../progress/open-source/index.html">开源游戏周报</a>
+        <h1 id="page-title" data-en="Open-Source Games">开源游戏</h1>
+        <p data-en="Find games from the open-source community, with creator credits, source code, and links to play as they become available.">发现开源社区的游戏。每款收录作品都会附上原作者和源码链接，试玩入口随作品上线开放。</p>
+        <a class="secondary-link" href="../../progress/open-source/index.html" data-en="Open-Source Game Log">开源游戏周报</a>
       </section>
 
       <section class="library" aria-labelledby="library-title">
         <div class="library-heading">
-          <h2 class="section-title" id="library-title">全部开源游戏</h2>
-          <p class="game-count"><strong data-published-count>0</strong> 款已上线</p>
+          <h2 class="section-title" id="library-title" data-en="All Open-Source Games">全部开源游戏</h2>
+          <p class="game-count"><strong data-published-count>0</strong><span data-en=" published"> 款已上线</span></p>
         </div>
         <ul class="game-grid"></ul>
       </section>

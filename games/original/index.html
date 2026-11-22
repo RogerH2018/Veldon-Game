@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="浏览 Veldon Game 自己制作的原创网页游戏。">
+    <meta name="description" content="浏览 Veldon Game 自己制作的原创网页游戏。" data-en-content="Browse original browser games made by Veldon Game.">
     <meta name="theme-color" content="#0d1119">
-    <title>自制游戏 · Veldon Game</title>
+    <title data-en="Original Games · Veldon Game">自制游戏 · Veldon Game</title>
     <link rel="icon" href="../../assets/veldon-game.png" type="image/png">
     <link rel="stylesheet" href="../../assets/home.css">
+    <script src="../../assets/language.js" defer></script>
     <script src="../../games.js" defer></script>
     <script src="../../assets/visitors.js" defer></script>
   </head>
@@ -18,26 +19,29 @@
           <img src="../../assets/veldon-game.png" alt="" width="48" height="48">
           <span>Veldon Game</span>
         </a>
-        <nav class="site-nav" aria-label="主导航">
-          <a href="./index.html" aria-current="page">自制游戏</a>
-          <a href="../open-source/index.html">开源游戏</a>
-          <a href="../../studio/index.html">AI 游戏工作室</a>
+        <nav class="site-nav" aria-label="主导航" data-en-label="Main navigation">
+          <a href="./index.html" aria-current="page" data-en="Original Games">自制游戏</a>
+          <a href="../open-source/index.html" data-en="Open-Source Games">开源游戏</a>
+          <a href="../../studio/index.html" data-en="AI Game Studio">AI 游戏工作室</a>
         </nav>
-        <a class="repo-link" href="https://github.com/RogerH2018/Veldon-Game">GitHub</a>
+        <div class="header-tools">
+          <a class="language-link" href="?lang=en" data-language-switch lang="en" hreflang="en">English</a>
+          <a class="repo-link" href="https://github.com/RogerH2018/Veldon-Game">GitHub</a>
+        </div>
       </div>
     </header>
 
     <main class="shell" data-game-category="original">
       <section class="page-intro" aria-labelledby="page-title">
-        <h1 id="page-title">自制游戏</h1>
-        <p>用 AI 一起做 1,000 款原创游戏，致敬童年。新作、版本更新和试玩链接会记录在开发周报里。</p>
-        <a class="secondary-link" href="../../progress/original/index.html">自制游戏周报</a>
+        <h1 id="page-title" data-en="Original Games">自制游戏</h1>
+        <p data-en="We’re making 1,000 original games with AI, inspired by what we played growing up. The weekly log covers new releases, updates, and links to play.">用 AI 一起做 1,000 款原创游戏，致敬童年。新作、版本更新和试玩链接会记录在开发周报里。</p>
+        <a class="secondary-link" href="../../progress/original/index.html" data-en="Original Game Log">自制游戏周报</a>
       </section>
 
       <section class="library" aria-labelledby="library-title">
         <div class="library-heading">
-          <h2 class="section-title" id="library-title">全部自制游戏</h2>
-          <p class="game-count"><strong data-published-count>0</strong> / 1,000 款已上线</p>
+          <h2 class="section-title" id="library-title" data-en="All Original Games">全部自制游戏</h2>
+          <p class="game-count"><strong data-published-count>0</strong><span data-en=" / 1,000 published"> / 1,000 款已上线</span></p>
         </div>
         <ul class="game-grid"></ul>
       </section>

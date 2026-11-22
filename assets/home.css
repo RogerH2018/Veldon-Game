@@ -75,7 +75,8 @@ a:focus-visible {
 }
 
 .site-nav a,
-.repo-link {
+.repo-link,
+.language-link {
   display: inline-grid;
   min-height: 2.75rem;
   align-items: center;
@@ -92,12 +93,22 @@ a:focus-visible {
 
 .site-nav a[aria-current="page"],
 .site-nav a:hover,
-.repo-link:hover {
+.repo-link:hover,
+.language-link:hover {
   color: var(--accent);
 }
 
-.repo-link {
+.header-tools {
+  display: flex;
+  align-items: center;
   justify-self: end;
+  gap: clamp(0.65rem, 1.5vw, 1rem);
+}
+
+.language-link {
+  padding-inline: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
 }
 
 .hero {
@@ -144,8 +155,12 @@ a:focus-visible {
   line-height: 1.15;
 }
 
-.hero h1 span {
+.hero-accent {
   color: var(--accent);
+}
+
+[lang="en"] .hero h1 {
+  font-size: clamp(1.9rem, 5vw, 4.45rem);
 }
 
 .hero-description {
@@ -477,12 +492,21 @@ a:focus-visible {
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 60rem) {
   .header-inner {
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 0.75rem;
   }
 
+  .site-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    flex-wrap: wrap;
+    gap: 0 clamp(0.75rem, 4vw, 1.4rem);
+  }
+}
+
+@media (max-width: 40rem) {
   .brand,
   .repo-link {
     min-height: 3.25rem;
@@ -495,13 +519,6 @@ a:focus-visible {
 
   .brand img {
     width: 2rem;
-  }
-
-  .site-nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    flex-wrap: wrap;
-    gap: 0 clamp(0.75rem, 4vw, 1.4rem);
   }
 
   .site-nav a {
