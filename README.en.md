@@ -43,7 +43,7 @@ We’ll add all 1,000 games to the original game catalog as they’re ready. Ove
 
 ## Repository structure
 
-`Veldon-Game` maintains the website, game catalogs, and weekly logs. Games keep their code, assets, and licenses in their own repositories. Each play button opens the independently hosted game.
+`Veldon-Game` maintains the website, game catalogs, and weekly logs. Games keep their source code, design assets, and licenses in their own repositories. Each play button opens a published game. The main site can host static builds from private projects.
 
 | File or directory | Purpose |
 | --- | --- |
@@ -57,6 +57,8 @@ We’ll add all 1,000 games to the original game catalog as they’re ready. Ove
 Standalone game repositories use `veldon-number-category-game-name`, with `open` for open-source games and `original` for our own games. Each category starts at `001`. Use at least three digits for the number and lowercase letters, digits, and hyphens for the game name.
 
 **001** in the original collection is *Hulao Showdown*, a Three Kingdoms fighting game featuring 100 chibi generals, 300 signature combos, solo CPU matches, and local two-player play. [Game repository](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [Play Hulao Showdown](https://rogerh2018.github.io/veldon-001-original-hulao-showdown/)
+
+**002** in the original collection is *Neon Stack*. Stack falling blocks in a cyberpunk city, clear lines, and beat your best score. Play in English or Chinese with a keyboard or touch controls. [Play Neon Stack](https://www.veldongame.com/games/original/neon-stack/?lang=en)
 
 Open-source game `001` is Julian Garnier’s 3D Hartwig Chess Set, with pieces designed by Josef Hartwig and move validation provided by Chess.js. The main catalog links directly to the standalone game. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
 

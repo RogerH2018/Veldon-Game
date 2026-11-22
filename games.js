@@ -13,6 +13,16 @@ const games = {
         description: "A hundred chibi Three Kingdoms fighters clash at Hulao Pass. Explore 300 signature combos built around quick strikes, rushes, and guard breaks.",
       },
     },
+    {
+      title: "002 · 霓虹堆栈",
+      description: "在赛博朋克都市里堆叠方块、消除横行，挑战最高分。支持键盘、触屏和滑动手势。",
+      cover: "games/original/neon-stack/cover.jpg",
+      url: "games/original/neon-stack/",
+      en: {
+        title: "002 · Neon Stack",
+        description: "Stack falling blocks and clear lines in a neon-lit city. Play with a keyboard, touch controls, or swipe gestures.",
+      },
+    },
     { title: "自制游戏预留位", en: { title: "Next Original Game" } },
   ],
   "open-source": [
