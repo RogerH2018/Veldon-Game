@@ -16,11 +16,13 @@ const games = {
     {
       title: "002 · 霓虹堆栈",
       description: "在赛博朋克都市里堆叠方块、消除横行，挑战最高分。支持键盘、触屏和滑动手势。",
-      cover: "games/original/neon-stack/cover.jpg",
-      url: "games/original/neon-stack/",
+      cover: "https://rogerh2018.github.io/veldon-002-original-neon-stack/cover.jpg",
+      url: "https://rogerh2018.github.io/veldon-002-original-neon-stack/?lang=zh",
+      source: "https://github.com/RogerH2018/veldon-002-original-neon-stack",
       en: {
         title: "002 · Neon Stack",
         description: "Stack falling blocks and clear lines in a neon-lit city. Play with a keyboard, touch controls, or swipe gestures.",
+        url: "https://rogerh2018.github.io/veldon-002-original-neon-stack/?lang=en",
       },
     },
     { title: "自制游戏预留位", en: { title: "Next Original Game" } },
