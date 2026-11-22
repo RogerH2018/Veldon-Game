@@ -27,7 +27,7 @@
 Veldon Game is a collection of browser games. We build original games with AI and share games from the open-source community. Pick a game from the catalog to play in your browser.
 
 - Our first original game, *Hulao Showdown*, supports solo matches against the CPU and local two-player play. [Browse original games](https://www.veldongame.com/games/original/?lang=en)
-- The open-source catalog includes *3D Hartwig Chess Set*, with links to play and browse its source code. [Browse open-source games](https://www.veldongame.com/games/open-source/?lang=en)
+- The open-source catalog includes *3D Hartwig Chess Set* and *VDrift Web*, with links to play and browse the source code. [Browse open-source games](https://www.veldongame.com/games/open-source/?lang=en)
 - The weekly logs cover new releases and updates. [Original game log](https://www.veldongame.com/progress/original/?lang=en) · [Open-source game log](https://www.veldongame.com/progress/open-source/?lang=en)
 - The AI Game Studio is in development. The goal is to help you turn a game idea into a playable browser game with AI. [AI Game Studio](https://www.veldongame.com/studio/?lang=en)
 
@@ -59,6 +59,8 @@ Standalone game repositories use `veldon-number-category-game-name`, with `open`
 **001** in the original collection is *Hulao Showdown*, a Three Kingdoms fighting game featuring 100 chibi generals, 300 signature combos, solo CPU matches, and local two-player play. [Game repository](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [Play Hulao Showdown](https://rogerh2018.github.io/veldon-001-original-hulao-showdown/)
 
 Open-source game `001` is Julian Garnier’s 3D Hartwig Chess Set, with pieces designed by Josef Hartwig and move validation provided by Chess.js. The main catalog links directly to the standalone game. [Game repository](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [Play directly](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
+
+Open-source game `002` is VDrift Web. Take a rear-wheel-drive coupe around the original Copperline Circuit and chase drift points and your best lap time. [Game repository](https://github.com/RogerH2018/veldon-002-open-vdrift/tree/web-trial) · [Play in your browser](https://rogerh2018.github.io/veldon-002-open-vdrift/?lang=en)
 
 Add a new game to its category in `games.js` and set `url` to the game's standalone play URL. For open-source games maintained by Veldon Game, set `source` to the corresponding GitHub fork.
 

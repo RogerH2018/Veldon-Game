@@ -23,6 +23,17 @@ const games = {
       source: "https://github.com/RogerH2018/veldon-001-open-hartwig-chess",
       en: { description: "A 3D chess game for two players on one screen, created by Julian Garnier." },
     },
+    {
+      title: "002 · VDrift Web",
+      description: "基于 VDrift 车辆动力学的浏览器试玩。在原创铜线赛道上练习漂移，挑战最快单圈。",
+      cover: "https://rogerh2018.github.io/veldon-002-open-vdrift/cover.jpg",
+      url: "https://rogerh2018.github.io/veldon-002-open-vdrift/",
+      source: "https://github.com/RogerH2018/veldon-002-open-vdrift/tree/web-trial",
+      en: {
+        description: "A browser trial built on VDrift's physics. Drift around the original Copperline Circuit and beat your best lap.",
+        url: "https://rogerh2018.github.io/veldon-002-open-vdrift/?lang=en",
+      },
+    },
     { title: "开源游戏预留位", en: { title: "Next Open-Source Game" } },
   ],
 };
@@ -83,7 +94,7 @@ for (const catalog of document.querySelectorAll("[data-game-category]")) {
 
     if (game.url) {
       const playLink = card.querySelector(".game-link");
-      playLink.href = sitePageUrl(game.url, siteRoot);
+      playLink.href = sitePageUrl(translation?.url ?? game.url, siteRoot);
       playLink.setAttribute("aria-label", englishCatalog ? `Play ${title}` : `试玩《${title}》`);
       playLink.hidden = false;
       card.querySelector(".game-status").hidden = true;

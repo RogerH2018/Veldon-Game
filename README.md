@@ -27,7 +27,7 @@
 Veldon Game 是一个网页游戏合集。我们用 AI 制作原创游戏，也分享来自开源社区的作品。打开游戏目录，点「开始试玩」就能在浏览器里玩。
 
 - 首款自制游戏《三国小将·虎牢争锋》支持单人挑战和双人同屏。 [浏览自制游戏](https://www.veldongame.com/games/original/)
-- 开源目录收录了 3D Hartwig Chess Set，提供试玩和源码入口。 [浏览开源游戏](https://www.veldongame.com/games/open-source/)
+- 开源目录收录了 3D Hartwig Chess Set 和 VDrift Web，提供试玩和源码入口。 [浏览开源游戏](https://www.veldongame.com/games/open-source/)
 - 周报记录每周的新作和版本更新。 [自制游戏周报](https://www.veldongame.com/progress/original/) · [开源游戏周报](https://www.veldongame.com/progress/open-source/)
 - AI 游戏工作室正在开发中，计划支持用 AI 把玩法点子做成可试玩的网页游戏。 [AI 游戏工作室](https://www.veldongame.com/studio/)
 
@@ -59,6 +59,8 @@ Veldon Game 是一个网页游戏合集。我们用 AI 制作原创游戏，也�
 自制游戏 **001** 是《三国小将·虎牢争锋》。百位 Q 版三国人物在虎牢关交锋，每人有三套专属连招，支持单人挑战、双人同屏和自定义按键。 [游戏仓库](https://github.com/RogerH2018/veldon-001-original-hulao-showdown) · [网页试玩](https://rogerh2018.github.io/veldon-001-original-hulao-showdown/)
 
 开源游戏 `001` 是 Julian Garnier 制作的 3D Hartwig Chess Set，棋具由 Josef Hartwig 设计，走棋规则由 Chess.js 提供。主站目录直接链接到独立部署的试玩页。 [游戏仓库](https://github.com/RogerH2018/veldon-001-open-hartwig-chess) · [独立试玩](https://rogerh2018.github.io/veldon-001-open-hartwig-chess/)
+
+开源游戏 `002` 是 VDrift Web。浏览器版采用 VDrift 的车辆动力学，提供原创铜线赛道和一辆后驱双门跑车，支持漂移得分和单圈计时。 [游戏仓库](https://github.com/RogerH2018/veldon-002-open-vdrift/tree/web-trial) · [网页试玩](https://rogerh2018.github.io/veldon-002-open-vdrift/)
 
 新增游戏时，在 `games.js` 的对应分类登记，将独立试玩地址填入 `url`。由 Veldon Game 维护的开源游戏用 `source` 链接对应的 GitHub Fork。
 
